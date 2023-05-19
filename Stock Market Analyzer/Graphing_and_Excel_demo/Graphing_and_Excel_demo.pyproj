@@ -1,0 +1,50 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>1f7a5dac-ee5b-4fd7-83ff-523292db1992</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>Graphing_and_Excel_demo.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>Graphing_and_Excel_demo</Name>
+    <RootNamespace>Graphing_and_Excel_demo</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Bond.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Asset.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BondETF.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FixedQueue.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Portfolio.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Graphing_and_Excel_demo.py" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>

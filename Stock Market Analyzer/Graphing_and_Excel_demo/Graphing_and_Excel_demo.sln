@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30309.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Graphing_and_Excel_demo", "Graphing_and_Excel_demo.pyproj", "{1F7A5DAC-EE5B-4FD7-83FF-523292DB1992}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F7A5DAC-EE5B-4FD7-83FF-523292DB1992}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F7A5DAC-EE5B-4FD7-83FF-523292DB1992}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1BF57176-1C2C-4136-AE0F-1365F510361E}
+	EndGlobalSection
+EndGlobal
